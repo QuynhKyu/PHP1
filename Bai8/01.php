@@ -14,15 +14,16 @@
     $name = "";
     $imga = "";
     if(isset($_POST["day"]) && isset($_POST["month"])){
-        echo $day    =$_POST["day"];
-        echo $mon    =$_POST["month"];
+        $day    =$_POST["day"];
+        $mon    =$_POST["month"];
         if(is_numeric($day) && is_numeric($mon)){
+
         }
     }
 ?>
 <div class="content">
-    <h1> Lấy chỏm sao</h1>
-    <form class="form" action="#" method="post " >
+    <h1> Lấy chòm sao</h1>
+    <form class="form" action="" method="post" >
         <div class="row">
             <span>Ngày sinh</span>
             <input type="text" name="day" value="<?php echo  $day;?>">
@@ -33,7 +34,7 @@
         </div>
         <div class="row">
 
-            <input type="submit" value="Lấy chỏm sao" >
+            <input type="submit" value="Lấy chòm sao" >
 
     </form>
 

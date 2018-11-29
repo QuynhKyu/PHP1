@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ .content{
+     width: 800px;
+     height: auto;
+     border: 2px solid #8CC;
+     margin: 20px auto;
+     padding: 20px;
+ }
+.content div{
+    border: 1px solid #8CC;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.content div p{
+    font-weight: bold;
+}
+ .content div p span{
+    font-style: italic;
+     font-weight: normal;
+}

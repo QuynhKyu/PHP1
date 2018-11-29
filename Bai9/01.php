@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,7 +65,7 @@ if(isset($_POST["day"]) && isset($_POST["month"])){
 ?>
 <div class="content">
     <h1> Lấy chỏm sao</h1>
-    <form class="form" action="#" method="post " >
+    <form class="form" action="" method="post" >
         <div class="row">
             <span>Ngày sinh</span>
             <input type="text" name="day" value="<?php echo  $day;?>">

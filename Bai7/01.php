@@ -44,7 +44,7 @@
 
 <div class="content">
     <h1> Mô phỏng máy tính điên tử</h1>
-    <form action="#" method="post " name="main-form">
+    <form action="" method="post" name="main-form">
         <div class="row">
             <span>số thứ nhất</span>
             <input type="text" name="number1" value="<?php echo $n1;?>" />
@@ -63,7 +63,7 @@
             <div class="row">
                 <p><?php
                         if ($flag == true){
-                            echo "Kết quả". $n1 . " " . $caculate . " " . $n2 . " = " . $result;
+                            echo "Kết quả " . $n1 . " " . $caculate . " " . $n2 . " = " . $result;
                         }else{
                             echo $result;
                         }

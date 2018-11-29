@@ -3,7 +3,8 @@
     padding: 0px;
 
 }
-.content{
+/*----------------------CONTENT1----------------*/
+.content1{
     margin: 20px auto;
     width: 600px;
     border: 1px solid #999;
@@ -11,14 +12,14 @@
     background: url("imga/bg1.jpg") no-repeat ;
     min-height: 200px;
 }
-.content h1{
+.content1 h1{
     color: red;
     text-align: center;
 }
-.content ul {
+.content1 ul {
     margin: 23px 0px 0px 100px;
 }
-.content ul li {
+.content1 ul li {
     margin-top: 5px;
     list-style: decimal inside;
 }
